@@ -1,5 +1,9 @@
 # gspread
 
+1.สร้างโปรเจกต์ https://console.developers.google.com/cloud-resource-manager
+2.เข้าAPIs & Services สร้าง  Credentials
+3.ดาวน์โหลดไฟล์json
+
 #print(worksheet.get_all_values()) #ปริ้นทั้งหมด
 
 #print(worksheet.row_values(1)) #ปริ้นrow 
