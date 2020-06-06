@@ -1,17 +1,16 @@
 # gspread
 
-1.สร้างโปรเจกต์ https://console.developers.google.com/cloud-resource-manager
+* 1.สร้างโปรเจกต์ https://console.developers.google.com/cloud-resource-manager
  (สร้างเสร็จ จะมีรูปกระดิ่งจ้งเตือนกดคลิกเข้าไป)
  
-2.สร้างcredential กดขีด3ขีดด้านซ้าย เลือก APIs&Services > credential. กด CREATE CREDENTIALS > Service Account (ไม่จำเป็นต้องใส่role) 
+* 2.สร้างcredential กดขีด3ขีดด้านซ้าย เลือก APIs&Services > credential. กด CREATE CREDENTIALS > Service Account (ไม่จำเป็นต้องใส่role) 
 
-3.Create Key เลือกไฟล์Json ดาวน์โหลด แล้วเปลี่ยนชื่อไฟล์ ย้ายไปโฟลเดอร์เดียวกับที่เราจะเขียนโค้ด
+* 3.Create Key เลือกไฟล์Json ดาวน์โหลด แล้วเปลี่ยนชื่อไฟล์ ย้ายไปโฟลเดอร์เดียวกับที่เราจะเขียนโค้ด
 
-2.เข้าAPIs & Services สร้าง  Credentials
+* 4.สร้าง spreadsheet https://docs.google.com/spreadsheets/u/2/
 
-3.Enable googlesheet api
+* 5.
 
-3.ดาวน์โหลดไฟล์json
 
 client_emailคือเมลที่ใช้เชิญ
 
