@@ -1,7 +1,7 @@
 # gspread
 
 * 1.สร้างโปรเจกต์ https://console.developers.google.com/cloud-resource-manager
- (สร้างเสร็จ จะมีรูปกระดิ่งจ้งเตือนกดคลิกเข้าไป)
+ \n /n(สร้างเสร็จ จะมีรูปกระดิ่งแจ้งเตือนกดคลิกเข้าไป)
  
 * 2.สร้างcredential กดขีด3ขีดด้านซ้าย เลือก APIs&Services > credential. กด CREATE CREDENTIALS > Service Account (ไม่จำเป็นต้องใส่role) 
 
