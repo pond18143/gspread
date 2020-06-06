@@ -17,7 +17,7 @@
 
 # Coding
 
->* ลงlib > pip3 install --upgrade oauth2client PyOpenSSL gspread
+* ลงlib > pip3 install --upgrade oauth2client PyOpenSSL gspread
 
 ```py
 import gspread
