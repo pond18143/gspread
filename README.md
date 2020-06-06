@@ -14,7 +14,7 @@
 
 
 
-#Coding
+# Coding
 
 >* ลงlib > pip3 install --upgrade oauth2client PyOpenSSL gspread
 
@@ -31,7 +31,7 @@ worksheet = sheet.get_worksheet(0)
 
 เท่านี้โค้ดเราก็เชื่อมต่อกับspread sheet เรียบร้อย
 
-#ตัวอย่างคำสั่ง
+# ตัวอย่างคำสั่ง
 
 ```py
 print(worksheet.get_all_values()) #ปริ้นทั้งหมด
