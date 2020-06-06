@@ -34,5 +34,9 @@ worksheet = sheet.get_worksheet(0)
 #ตัวอย่างคำสั่ง
 
 ```py
-worksheet = sheet.get_worksheet(0)
+print(worksheet.get_all_values()) #ปริ้นทั้งหมด
+```
+
+```py
+print(worksheet.get_all_values()) #ปริ้นทั้งหมด
 ```
