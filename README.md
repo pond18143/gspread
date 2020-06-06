@@ -38,5 +38,25 @@ print(worksheet.get_all_values()) #ปริ้นทั้งหมด
 ```
 
 ```py
-print(worksheet.get_all_values()) #ปริ้นทั้งหมด
+print(worksheet.row_values(3)) #ปริ้นrow3
+```
+
+```py
+print(worksheet.acell('B3').value) #ปริ้นค่าcell B3
+```
+
+```py
+print(worksheet.cell(3,1).value) #ปริ้นค่าcell R3C1
+```
+
+```py
+worksheet.update_cell(3,1, 'update R3C1') #อัพเดต R3C1
+```
+
+```py
+worksheet.update_acell('B2', 'update B2 ') #อัพเดตcell B2 
+```
+
+```py
+print(worksheet.findall('Key word')) #หาค่า
 ```
