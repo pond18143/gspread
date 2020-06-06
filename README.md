@@ -1,4 +1,4 @@
-# gspread
+# Preparation
 
 >* 1.สร้างโปรเจกต์ https://console.developers.google.com/cloud-resource-manager
 
@@ -14,7 +14,7 @@
 
 
 
-#ขั้้นเขียนโค้ด
+#Coding
 
 >* ลงlib > pip3 install --upgrade oauth2client PyOpenSSL gspread
 
