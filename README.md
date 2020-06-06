@@ -18,7 +18,7 @@
 
 >* 1.ลงlib > pip3 install --upgrade oauth2client PyOpenSSL gspread
 
-2 ```py
+```py
 import gspread
 from oauth2client.service_account import ServiceAccountCredentials
 scope = [“https://www.googleapis.com/auth/spreadsheets”] 
