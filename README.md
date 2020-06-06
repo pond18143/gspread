@@ -16,19 +16,26 @@
 
 #ขั้้นเขียนโค้ด
 
->* 1. ลงlib > pip3 install --upgrade oauth2client PyOpenSSL gspread
+>* 1.ลงlib > pip3 install --upgrade oauth2client PyOpenSSL gspread
 
->* 2. import gspread
+>* 2.import gspread
 
->* 3. from oauth2client.service_account import ServiceAccountCredentials
+>* 3.from oauth2client.service_account import ServiceAccountCredentials
 
->* 4. scope = [“https://www.googleapis.com/auth/spreadsheets”] 
+>* 4.scope = [“https://www.googleapis.com/auth/spreadsheets”] 
 
->* 5. credentials = ServiceAccountCredentials.from_json_keyfile_name(‘credentials.json’, scope)
+>* 5.credentials = ServiceAccountCredentials.from_json_keyfile_name(‘credentials.json’, scope)
 
->* 6. gc = gspread.authorize(credentials)
+>* 6.gc = gspread.authorize(credentials)
 
->* 7. sheet = gc.open_by_url("<<file_url>>")
+>* 7.sheet = gc.open_by_url("<<file_url>>")
 
->* 8. worksheet = sheet.get_worksheet(0)
+>* 8.worksheet = sheet.get_worksheet(0)
+
 เท่านี้โค้ดเราก็เชื่อมต่อกับspread sheet เรียบร้อย
+
+#ตัวอย่างคำสั่ง
+
+```py
+worksheet = sheet.get_worksheet(0)
+```
