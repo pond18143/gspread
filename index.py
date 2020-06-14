@@ -16,7 +16,7 @@ gc = gspread.authorize(credentials)
 sheet = gc.open_by_url("https://docs.google.com/spreadsheets/d/1QrOs0PcAxnnP21OwFxhvzsbPShwpdyg7ElXPI6bljTc/edit?usp=sharing")
 worksheet = sheet.get_worksheet(1) # เริ่มแผ่น0
 
-#print(worksheet.get_all_values()) #ปริ้นทั้งหมด
+print(worksheet.get_all_values()) #ปริ้นทั้งหมด
 
 #print(worksheet.row_values(3)) #ปริ้นrow  แนวนอน
 #print(worksheet.col_values(2)) #ปริ้นcol  แนวตั้ง
